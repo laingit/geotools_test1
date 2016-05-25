@@ -1,4 +1,4 @@
-package org.geotools;
+package org.geotools.tutorial;
 
 import com.vividsolutions.jts.geom.*;
 import com.vividsolutions.jts.geom.impl.PackedCoordinateSequence;
