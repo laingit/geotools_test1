@@ -105,7 +105,7 @@ public class TestMultiSurface {
         WKTReader2 wktReader2 = new WKTReader2(curvedFactory);
 
         // CREATE EXCEPTION -> NOT WORKING
-        //MultiSurface multisurface_from_wkt2 = (MultiSurface) wktReader2.read(WKT2);// ERROR
+        MultiSurface multisurface_from_wkt2 = (MultiSurface) wktReader2.read(WKT2);// ERROR
 
         System.out.println("multiSurface_A_BC: valid? = " + multiSurface_A_BC.isValid());
         System.out.println("Area = " + multiSurface_A_BC.getArea()); // Area = 31.110026267242873
